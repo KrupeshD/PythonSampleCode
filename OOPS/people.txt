@@ -1,0 +1,4 @@
+Krupesh::30::Daman::India
+Greena::26::Nelson::NZ
+Ricky::28::Auckland::NZ
+Manav::20::Mumbai::India

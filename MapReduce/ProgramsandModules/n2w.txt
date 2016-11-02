@@ -1,0 +1,4 @@
+1 = one
+23 = twenty three
+45 = forty five
+6477 = six thousand four hundred seventy seven

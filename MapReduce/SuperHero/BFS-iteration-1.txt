@@ -1,0 +1,9 @@
+No configs found; falling back on auto-configuration
+Creating temp directory /var/folders/24/4_7dqrpj7bl57lb4p8mrydhc0000gn/T/BFSIteration.kdesai.20160513.075445.925456
+Running step 1 of 1...
+Streaming final output from /var/folders/24/4_7dqrpj7bl57lb4p8mrydhc0000gn/T/BFSIteration.kdesai.20160513.075445.925456/output...
+1|2,3,4|0|BLACK
+2|4,5,9,|1|GRAY
+3|6,8,2,|1|GRAY
+4|3,5,9,|1|GRAY
+Removing temp directory /var/folders/24/4_7dqrpj7bl57lb4p8mrydhc0000gn/T/BFSIteration.kdesai.20160513.075445.925456...

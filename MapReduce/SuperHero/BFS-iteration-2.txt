@@ -1,0 +1,22 @@
+pydev debugger: process 5665 is connecting
+
+No configs found; falling back on auto-configuration
+Creating temp directory /var/folders/24/4_7dqrpj7bl57lb4p8mrydhc0000gn/T/BFSIteration.kdesai.20160513.080010.542891
+Running step 1 of 1...
+Counters: 1
+	Degrees of Separation
+		Target ID 8 was hit with distance 2=1
+Counters: 1
+|,,,,,,,|2|GRAY
+	Degrees of Separation
+1|2,3,4|0|BLACK
+		Target ID 8 was hit with distance 2=1
+2|4,5,9,,|1|BLACK
+Streaming final output from /var/folders/24/4_7dqrpj7bl57lb4p8mrydhc0000gn/T/BFSIteration.kdesai.20160513.080010.542891/output...
+3|6,8,2,,|1|BLACK
+4|3,5,9,,|1|BLACK
+Removing temp directory /var/folders/24/4_7dqrpj7bl57lb4p8mrydhc0000gn/T/BFSIteration.kdesai.20160513.080010.542891...
+5|,|2|GRAY
+6||2|GRAY
+8||2|GRAY
+9|,|2|GRAY
