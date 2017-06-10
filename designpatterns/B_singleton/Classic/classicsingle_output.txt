@@ -1,0 +1,12 @@
+python
+Python 3.5.1 (default, Jun 13 2016, 16:08:16)
+[GCC 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import classicsingle
+>>> singleton = classicsingle.Singleton()
+>>> another_singleton = classicsingle.Singleton()
+>>> singleton is another_singleton
+True
+>>> singleton.only_one_var = "I'm only one var"
+>>> another_singleton.only_one_var
+"I'm only one var"

@@ -1,0 +1,18 @@
+python
+Python 3.5.1 (default, Jun 13 2016, 16:08:16)
+[GCC 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from borgsingleton import *
+>>> borg = Borg()
+>>> another_borg = Borg()
+>>> borg is another_borg
+False
+>>> child = Child()
+>>> borg.only_one_var = "I'm the only one var"
+>>> child.only_one_var
+"I'm the only one var"
+>>> another_child = AnotherChild()
+>>> another_child.only_one_var
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'AnotherChild' object has no attribute 'only_one_var'
